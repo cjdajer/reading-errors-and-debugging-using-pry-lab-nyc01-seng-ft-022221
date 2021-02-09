@@ -2,7 +2,7 @@
 require 'pry'
 def snake_it_up(string)
   if String[0] == "s"
-    10 * "s" + String
+    "s" * 10 + String
   else
     String
   end
